@@ -34,11 +34,12 @@ export const Navbar: React.FC<NavbarProps> = ({ currentView, setView }) => {
             <img
               src="/logo/logo.jpg"
               alt="Kopi Tengah Logo"
-              className="h-12 w-auto rounded-lg border-2 border-black transform -rotate-2 hover:rotate-0 transition-transform"
+              className="h-10 w-auto md:h-12 rounded-lg border-2 border-black transform -rotate-2 hover:rotate-0 transition-transform"
             />
+            <h6 className="pl-2 text-xl md:text-3xl font-black tracking-tight self-center">KOPI TENGAH</h6>
           </div>
 
-          {/* Desktop Menu */}
+          {/* Desktop Menu -MENU */}
           <div className="hidden md:flex space-x-8 items-center">
             {navItems.map((item) => (
               <button

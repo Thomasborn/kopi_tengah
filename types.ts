@@ -1,6 +1,6 @@
 export enum MenuCategory {
   SPECIALTY = "Kopi Specialty",
-  KEKINATAAN = "Es Kopi Kekinataan",
+  KEKINATAAN = "Es Kopi Kekinian",
   NON_KOPI = "Es Non-Kopi",
   ADDITIONAL = "Additional"
 }
